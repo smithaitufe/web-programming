@@ -1,0 +1,13 @@
+Open my computer
+Login to my computer
+Launch VSCode
+Open my folder (repository)
+Run the command `git pull` 
+(to update my local branch with changes 
+that were pushed by others)
+Start working, making modifications to existing files
+adding new files 
+delete existing files 
+Run `git add [.]|[specific files]`
+Run `git commit -m [commit message]`
+Run `git push`

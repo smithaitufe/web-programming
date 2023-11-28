@@ -1,0 +1,21 @@
+Team lead 
+Project manager
+Members
+
+Jira
+
+List of tickets
+
+Backlog (pull of tickets that not in the active sprint)
+Sprint (list of tickets that are currently 
+been worked on for a period of 2 weeks)
+
+DoR (Definition of ready)
+DoD (Definition of Done)
+
+Sample ticket
+1. Design a responsive layout for the cart page
+Assignee: Smith
+Reviewer: Johnson
+
+
