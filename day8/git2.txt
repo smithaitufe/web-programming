@@ -14,8 +14,20 @@ DoR (Definition of ready)
 DoD (Definition of Done)
 
 Sample ticket
-1. Design a responsive layout for the cart page
+1. Design a responsive layout for the cart page D13-300
 Assignee: Smith
 Reviewer: Johnson
+
+
+
+feature/D13-300-Cart-responsive-layout
+
+
+Each presentation will last 5 minutes
+Taiye: Presentation on the word Feature 
+Omotola: Presentation on the word Chore 
+Kehinde: Presentation on the word Bug 
+Onome: Presentation on the term HEAD in git
+
 
 
