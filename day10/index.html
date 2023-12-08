@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid black;
+
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+
+            border-left-width: 10px;
+            border-left-color: red;
+            border-left-style: solid;
+
+            border-left: 10px solid blue;
+            
+            border-right-width: 10px;
+            border-right-color: red;
+            border-right-style: solid;
+
+            border-top-width: 5px;
+            border-top-color: green;
+            border-top-style: solid;
+
+            border-bottom-width: 5px;
+            border-bottom-color: purple;
+            border-bottom-style: solid;
+
+
+        }
+    </style>
+
+
+<style>
+    div {
+        border: 10px solid gold;
+        
+        padding: 10px; /* top, right, bottom, left */
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        padding: 10px 10px 10px 10px; /* top, right, bottom, left */
+        padding: 10px /*top, bottom */ 10px /*right, left */;
+        padding: 10px /* top */ 10px /* right, left */ 10px /* bottom */ ;
+    }
+
+    .margin-spacer {
+        margin: 10px; /* top, right, bottom, left */
+        margin: 10px /*top, bottom */ 0 /*right, left */;
+
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .red-text {
+        color: red;
+    }
+    .big-font-size {
+        font-size: 35px;
+    }
+</style>
+</head>
+<body>
+    <div class="big-font-size">I am in the first DIV</div>
+    <div class="margin-spacer red-text big-font-size">I am in the second DIV</div>
+    <div>I am in the third DIV</div>
+</body>
+</html>
+
