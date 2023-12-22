@@ -6,9 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    1. Form 
-    2. Flexbox
+    <form action="" method="GET">
+        <label for="firstname">FirstName</label><br/>
+        <input type="text" name="firstname" id="firstname" minlength="2" maxlength="50" required><br/>
+        <label for="password">Password</label> <br/>
+        <input type="password" name="password" id="password" required>
 
+        <label for="pin">Pin</label>
+        <input type="password" name="pin" id="pin" maxlength="4" required>
+
+        <input type="datetime" 
+        name="birthdate" 
+        id="birthdate" 
+        value="2023-12-22" 
+        min="2023-12-22" 
+        max="2023-12-30"
+        required>
+
+        <input type="color" name="" id="">
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+
+        <input type="radio" name="sex" id="sex" value="Male">Male 
+        <input type="radio" name="sex" id="sex" value="Female">Female
+
+<br><input type="radio" name="marital_status" id="marital_status"> Single
+<br><input type="radio" name="marital_status" id="marital_status"> Married
+<br><input type="radio" name="marital_status" id="marital_status"> Divorced
+<br><input type="radio" name="marital_status" id="marital_status"> Widow
+<br><input type="radio" name="marital_status" id="marital_status"> Widower
+
+<br>
+<label for="hobbies">Choose your hobbies</label> <br>
+        <input type="checkbox" name="hobbies" id="hobbies">Reading<br/>
+        <input type="checkbox" name="hobbies" id="hobbies">Cycling<br/>
+        <input type="checkbox" name="hobbies" id="hobbies">Dancing<br/>
+        <input type="checkbox" name="hobbies" id="hobbies">Hiking<br/>
+        <input type="checkbox" name="hobbies" id="hobbies">Cooking<br/>
+
+        <button type="submit">Submit</button>
+
+
+        <input type="file" name="" id="">
+    </form>
 
 </body>
 </html>
