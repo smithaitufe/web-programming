@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* static
+        fixed
+        relative
+        absolute
+        sticky */
+
+        body {
+            color: white;
+        }
+
+        div {
+            padding: 4px;
+        }
+        .left-div {
+            background-color: red;
+            position: absolute;
+
+            left: 10px;
+            top: 10px;
+            bottom: 10px;
+            right: 10px;
+        }
+        .middle-div {
+            background-color: blue;
+            position: static;
+        }
+        .right-div{
+            background-color: green;
+            position: static;
+        }
+
+        .parent {
+            position: static;
+        }
+        .grand-parent {
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+<div class="grand-parent">
+    <div class="parent">
+        <div class="left-div">I am left div</div>
+    </div>
+</div>
+    <div class="middle-div">I am the middle div</div>
+    <div class="right-div">I am right div</div>
+</body>
+</html>

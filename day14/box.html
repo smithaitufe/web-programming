@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        .parent {
+            padding: 4px;
+            border: 1px solid black;
+            display: block flow;
+            display: block flex;
+            
+        }
+.parent  div {
+ 
+    border: 1px solid black;
+margin: 1px;
+}
+
+.child {
+            /* display: block; */
+
+            /*display: outer inner; */
+            display: block flow;
+            /* display: inline flow; */
+flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Box model</h1>
+
+    Every element in html is a box.
+
+    <div>I am a div</div>
+    <p>I am a paragraph</p>
+    <h1>I am a header</h1>
+    <span>I am in a span</span>
+    <em>I am emphasized</em>
+    <i>I am italized</i>
+    <b>I am bold</b>
+
+    <p>
+
+        A box has two display type 
+    1. Outer display type
+    2. Inner display type 
+
+    The outer display type has two possible values
+
+    1. block  (the element will occupy the available width or space)
+    Some element having this type of display are div, p, h1 - h6, 
+    2. inline (the element will only occupy whatever width/space needed to render the content)
+    Some element having this type of display are span, b, i, em, 
+
+    </p>
+
+
+    <div class="another-parent">
+        I am a parent
+    </div>
+    <div class="parent">
+        
+        <div class="child">
+1
+        </div>
+        <div class="child">
+  2
+        </div>
+        <div class="child">
+   3
+        </div>
+    </div>
+
+    <div class="another-parent">
+        I am a parent
+    </div>
+
+</body>
+</html>
