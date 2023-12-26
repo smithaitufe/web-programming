@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 12px;
+        }
+
+        .container {
+            width: 20vw;
+            margin: 0 auto;
+            border: 0px solid #ddd;
+            padding: 10px;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .logo img {
+            width: 40px;
+            height: auto;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .prompt {
+            text-align: center;
+            font-size: 10px;
+
+        }
+
+        input[type=text] {
+            outline: none;
+            border: 0;
+        }
+
+        .input-container {
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            padding: 6px 4px;
+            margin: 30px 0;
+        }
+
+        .continue-button {
+            background-color: orange;
+            color: #fff;
+            width: 100%;
+            padding: 10px 0;
+            font-weight: bold;
+            border: 0;
+            box-shadow: 1px 0.5px 0.5px 0px #949191;
+
+        }
+
+        .terms-condition-part {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        .terms-condition-part,
+        .terms-condition-link {
+            text-align: center;
+        }
+
+        .terms-condition-link a {
+            color: orange;
+        }
+
+        .ruler {
+            border: 0.5px solid #ddd;
+
+            margin: 20px 0;
+        }
+
+        .passkeys-button {
+            background-color: transparent;
+            border: 1px solid orange;
+            width: 100%;
+            padding: 10px 0;
+            color: orange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><img src="./images/logo.png" alt=""></div>
+        <h3 class="header">Welcome to Jumia</h3>
+        <form action="">
+            <div class="prompt">Type your e-mail or phone number to log in or create a Jumia account</div>
+            <div class="input-container"><input type="text" placeholder="Email or Mobile Number*"></div>
+        </form>
+        <button type="submit" class="continue-button">Continue</button>
+        <div class="terms-condition-part">By continuing, you agree to Jumia's</div>
+        <div class="terms-condition-link"><a href="">Terms and Conditions</a></div>
+        <div class="ruler"></div>
+        <button class="passkeys-button">Login with Passkeys</button>
+    </div>
+</body>
+
+</html>
