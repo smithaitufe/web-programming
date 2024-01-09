@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+
+    height: 100px;
+    border: 1px solid red;
+
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.flex-item {
+    /* flex: 1; */
+
+    width: 300px;
+}
+
+.flex-item-without-flex-1 {
+    width: 800px;
+}
