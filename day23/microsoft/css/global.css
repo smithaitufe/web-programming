@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: #f2f2f2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-block: 15px;
+
+}
+
+.logo-brand-container {
+    display: flex;
+    align-items: center;
+}
+.logo-brand-container img {
+    width: 25px;
+    margin-inline: 8px;
+}
+.logo-brand-container .brand {
+    font-size: 22px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.navbar .divider {
+height: 30px;
+width: 3px;
+background-color: #f2f2f2;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.learn {
+    color: #f2f2f2;
+    text-decoration: none;
+    
+}
+
+.learn:hover {
+
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    column-gap: 20px;
+    margin-left: 40px;
+}
+
+.links a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.links a:hover {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signinout-form-container {
+    display: flex;
+}
+.signinout-form {
+    display: flex;
+}
+.signinout-form .search-input input{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    color: #f2f2f2;
+}
